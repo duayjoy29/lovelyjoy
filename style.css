@@ -1,66 +1,56 @@
-ody {
-    /* background-color: darkgray;
-    background-image: url("../img/hero-img.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-attachment: fixed;
-    background-size: auto; */
-
-    background: darkgray url("..313431767_1165820737706893_4495337696687187495_n.jpg/img/hero-img.png") no-repeat fixed  bottom right;
-    /* Shorthand Method */
-
+body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 80px;
+    background-color: slategray;
 }
-
-#content {
-    margin: 100px;
-    padding: 100px;
-    border: 1px solid black;
-    background: white;
+.container{
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    box-shadow: 0, 0, 0, black;
 }
-
-h1 {
-    font-size: 48px;
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 100%
 }
-
-p {
-    font-size: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+.name {
     text-transform: uppercase;
+    text-align: center;
+    font-family: Gasalt-Black;
+    font-weight: bold;
+    font-size: 40px;
 }
-
-a:hover {
-    color: orangered;
+.bio {
+    margin: 40px;
+    text-align: center;
 }
-
-.font-color-gray {
-    color: gray;
+.linksocial {
+    margin: 210px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: blue;
+    text-decoration: none;
 }
-
-.font-color-orange {
-    color: rgb(190, 111, 82);
-}
-
-.font-bold {
-    font-weight: 900;
-}
-
-.class-button {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: solid black 1px;
-    border-radius: 20px;
-    background-color: darkslategray;
+.linksocial:hover {
+    border-radius: 25px;
+    background-color: #157dc3;
     color: white;
 }
-
-.class-button:hover {
-    border: solid red 1px;
-    background-color: orangered;
-    color: white;
+.icon {
+    width: 20px;
+    height: 20px;
+}
+@font-face {
+    font-family: 'Gasalt-Black';
+    src: url(../fonts/Gasalt-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
